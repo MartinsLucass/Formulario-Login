@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
+</head>
+
+<body id="body">
+    <main id="container">
+        <div id="left_login">
+            <img src="assets/image/img-login.svg" alt="login">
+        </div>
+        <div id="right_login">
+            <div id="theme_selector">
+                <i id="mode_icon" class="fa-solid fa-moon"></i>    
+            </div>      
+            <div id="form_header">
+                <h1>Sign In</h1>
+                <p>Don't have an account?<a href="#"> Register</a></p>
+            </div>    
+            <form>
+                <div class="inputs-box">
+                    <input type="text" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="inputs-box">
+                    <input type="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div id="login_button">
+                    <button type="submit">CONTINUE</button>
+                </div>
+            </form>
+            <div id="connect_with">
+                <p>or Connect With Social Media</p>
+            </div>
+            <div id="form_medias">
+                <button>
+                    <i class="fa-brands fa-google"></i>
+                    <span>Connect With Google</span>
+                </button>
+                <button>
+                    <i class="fa-brands fa-facebook"></i>
+                </button>
+                <button>
+                    <i class="fa-brands fa-github"></i>
+                </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
